@@ -10,6 +10,7 @@ class Backer
   def back_project(project)
     @backed_projects << project
     project.backers << self
+    #adds to project backers array... made in initialize
   end
   
   
